@@ -24,6 +24,13 @@ A `MainActivity` é a tela de login do aplicativo. Ela valida o e-mail e senha, 
 ### TelaTwo
 A `TelaTwo` exibe a lista de personagens em um `ListView`, utilizando o `CharacterAdapter` para renderizar cada personagem.
 
+### activity_main.xml
+O `activity_main.xml` define o layout da tela de login. Ele utiliza um `ConstraintLayout` e contém os seguintes elementos:
+- Uma `ImageView` que serve como plano de fundo.
+- Um `TextView` que exibe o título da aplicação.
+- Dois `TextInputLayout` para entrada de e-mail e senha, com suporte para dicas e alternância de visibilidade da senha.
+- Um `Button` para acionar o login, que chama a função de validação e navegação para a próxima tela.
+
 ### item_character.xml
 Este layout define a aparência de cada item na lista de personagens, incluindo imagem, nome, título, função e recompensa do personagem.
 
