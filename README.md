@@ -2,11 +2,11 @@
 
 Este é o primeiro projeto pessoal em desenvolvimento. O aplicativo possui atualmente duas telas: uma tela inicial que solicita login e senha, e uma segunda tela que exibe uma lista dos personagens principais de One Piece. Trata-se de uma wiki dos personagens, servindo para demonstrar minha evolução no desenvolvimento Android.
 
-#Capturas de Tela
-##Tela de Login:
+# Capturas de Tela
+## Tela de Login:
 ![Tela1](https://github.com/Wanderson-dev47/Projeto01-One_Piece_Wiki/assets/151024253/24b5d934-1e38-44db-ad7c-8492581c9431)
 
-##Lista dos personagens:
+## Lista dos personagens:
 ![Screenshot_20240617_112105](https://github.com/Wanderson-dev47/Projeto01-One_Piece_Wiki/assets/151024253/bbd8d9d2-1226-40e7-9417-e3073458636c)
 
 
