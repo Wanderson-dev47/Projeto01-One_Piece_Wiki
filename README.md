@@ -1,6 +1,6 @@
 # Projeto01-One_Piece_Wiki
 
-Este é o primeiro projeto pessoal em desenvolvimento. O aplicativo possui atualmente duas telas: uma tela inicial que solicita login e senha, e uma segunda tela que exibe uma lista dos personagens principais de One Piece. Trata-se de uma wiki dos personagens, servindo para demonstrar minha evolução no desenvolvimento Android.
+Este é o meu primeiro projeto pessoal em desenvolvimento e estou super empolgado! 🚀 O aplicativo possui duas telas: a tela inicial, onde você faz login, e uma segunda tela que mostra uma lista dos personagens principais de One Piece. 🌟 Este projeto é uma wiki dos personagens principais de One Piece e representa a minha jornada de evolução no desenvolvimento Android. Estou muito feliz em compartilhar isso com vocês! 🏴‍☠️📱
 
 # Capturas de Tela
 ## Tela de Login:
