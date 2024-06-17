@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@color/azul"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardview"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgChar"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@mipmap/ic_launcher_round"
+            app:layout_constraintBottom_toBottomOf="@id/cardview"
+            app:layout_constraintStart_toStartOf="@id/cardview"
+            app:layout_constraintTop_toTopOf="@id/cardview" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/imgChar"
+            app:layout_constraintTop_toTopOf="@id/cardview"
+            tools:text="Nome do personagem" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/txtName"
+            app:layout_constraintTop_toBottomOf="@id/txtName"
+            tools:text="Título do personagem" />
+
+        <TextView
+            android:id="@+id/txtFunction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/txtReward"
+            app:layout_constraintEnd_toEndOf="@id/cardview"
+            app:layout_constraintTop_toBottomOf="@id/txtTitle"
+            tools:text="Função" />
+
+        <TextView
+            android:id="@+id/txtAntesReward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/txtReward"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/cardview"
+            app:layout_constraintStart_toStartOf="@id/cardview" />
+
+        <ImageView
+            android:id="@+id/imgBerrie"
+            android:layout_width="16dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/berrie"
+            app:layout_constraintBottom_toBottomOf="@id/txtAntesReward"
+            app:layout_constraintStart_toEndOf="@id/txtAntesReward"
+            app:layout_constraintTop_toTopOf="@id/txtAntesReward" />
+
+        <TextView
+            android:id="@+id/txtReward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/imgBerrie"
+            app:layout_constraintStart_toEndOf="@id/imgBerrie"
+            app:layout_constraintTop_toTopOf="@id/imgBerrie" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="characters">
+        <item>@drawable/luffy</item>
+        <item>@drawable/zoro</item>
+        <item>@drawable/nami</item>
+        <item>@drawable/usopp</item>
+        <item>@drawable/sanji</item>
+    </array>
+</resources>

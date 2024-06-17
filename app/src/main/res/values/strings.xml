@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Projeto01</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Senha</string>
+    <string name="hint_login">Entrar</string>
+    <string name="msg_error_email">Email inválido</string>
+    <string name="msg_error_password">Senha inválida</string>
+    <string name="msg_sucess">Logado com sucesso!</string>
+    <string name="one_piece_wiki">One Piece Wiki</string>
+    <string name="text_login">Faça o login para acessar:</string>
+    <string name="txtReward">Recompensa:</string>
+
+    <string name="fuel_capitao">Capitão</string>
+    <string name="fuel_espadachim">Espadachim</string>
+    <string name="fuel_navegadora">Navegadora</string>
+    <string name="fuel_atirador">Atirador</string>
+    <string name="fuel_cozinheiro">Cozinheiro</string>
+    <string name="fuel_invalid">Não informado</string>
+
+</resources>
