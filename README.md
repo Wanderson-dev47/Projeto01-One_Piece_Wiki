@@ -10,7 +10,7 @@ Este é o primeiro projeto pessoal em desenvolvimento. O aplicativo possui atual
 ![Screenshot_20240617_112105](https://github.com/Wanderson-dev47/Projeto01-One_Piece_Wiki/assets/151024253/bbd8d9d2-1226-40e7-9417-e3073458636c)
 
 
-## Descrição do Código
+## Descrição de partes importantes do Código
 
 ### Character
 O `Character` é uma data class que representa um personagem com atributos como nome, título, função e recompensa.
